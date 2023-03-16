@@ -24,7 +24,7 @@ public class PostmanEchoTest {
                 .body("headers.content-length", equalTo("4"))
                 .body("headers.accept-encoding", equalTo("gzip,deflate"))
                 .body("headers.content-type", equalTo("text/plain; charset=ISO-8859-1"))
-                .body("headers.user-agent", equalTo("Apache-HttpClient/4.5.3 (Java/11.0.13)"))
+                .body("headers.user-agent", equalTo("Apache-HttpClient/4.5.3 (Java/11.0.2)"))
         ;
     }
 }
